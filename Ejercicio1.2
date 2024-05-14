@@ -1,0 +1,8 @@
+//Ejercicio 1: Declara una función que acepte una palabra como parámetro y la devuelva con todos sus caracteres en mayúsculas y separados por espacios. Ejemplo: Para "Ana" devolverá "A N A".
+function convertirPalabra(palabra) {
+    let palabraMayusculas = palabra.toUpperCase();
+    let palabraConEspacios = palabraMayusculas.split('').join(' ');
+    return palabraConEspacios;
+}
+
+console.log(convertirPalabra("Ana"));
